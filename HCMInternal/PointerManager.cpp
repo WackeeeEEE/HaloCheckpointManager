@@ -147,7 +147,7 @@ std::string PointerManager::PointerManagerImpl::readLocalXML()
 {
     std::string pathToFile;
 #if HCM_DEBUG
-    pathToFile = "C:\\Users\\mauri\\source\\repos\\HaloCheckpointManager4\\HCMInternal\\PointerData.xml";
+    pathToFile = "C:\\IMP\\CODE\\HaloCheckpointManager\\HCMInternal\\PointerData.xml";
 #else
     pathToFile = pointerDataLocation;
 #endif

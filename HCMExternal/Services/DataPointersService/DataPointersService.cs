@@ -78,10 +78,10 @@ namespace HCMExternal.Services.DataPointersServiceNS
 
             // Debug mode to use local data file 
 #if HCM_DEBUG 
-            Debug.Assert(localPointerDataPath.Contains(@"mauri\source\repos") && File.Exists(@"C:\Users\mauri\source\repos\HaloCheckpointManager4\HCMExternal\ExternalPointerData.xml"));
+            Debug.Assert(localPointerDataPath.Contains(@"IMP\CODE\") && File.Exists(@"C:\IMP\CODE\HaloCheckpointManager\HCMExternal\ExternalPointerData.xml"));
 
             Log.Information("Grabbing xml data from local dev machine");
-            xml = File.ReadAllText(@"C:\Users\mauri\source\repos\HaloCheckpointManager4\HCMExternal\ExternalPointerData.xml");
+            xml = File.ReadAllText(@"C:\IMP\CODE\HaloCheckpointManager\HCMExternal\ExternalPointerData.xml");
 
 #else
             try
